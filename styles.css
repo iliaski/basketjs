@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Geologica", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scoreboard {
+  display: flex;
+  width: 800px;
+  height: 50vh;
+  border: 5px solid black;
+  border-radius: 2px;
+  flex-direction: column;
+}
+
+.scoreboard__timer,
+.scoreboard__pointsAway,
+.scoreboard__pointsHome,
+.scoreboard__offenseAway,
+.scoreboard__offenseHome,
+.scoreboard__offensePeriod {
+  display: flex; /*text centering*/
+  justify-content: center; /*text centering*/
+  align-items: center; /*text centering*/
+  font-weight: bold;
+}
+
+.scoreboard__timer {
+  width: 200px;
+  border: 5px solid black;
+  border-top: transparent;
+  height: 15vh;
+  align-self: center;
+  font-size: xx-large;
+}
+
+.scoreboard__pointsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreboard__pointsHome {
+  width: 150px;
+  height: 15vh;
+  border: 5px solid black;
+  border-left: transparent;
+  font-size: x-large;
+}
+
+.scoreboard__pointsAway {
+  width: 150px;
+  height: 15vh;
+  border: 5px solid black;
+  border-right: transparent;
+  font-size: x-large;
+}
+
+.scoreboard__offenseContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreboard__offenseHome {
+  width: 150px;
+  height: 15vh;
+  border: 5px solid black;
+  border-left: transparent;
+  border-top: transparent;
+  font-size: large;
+}
+
+.scoreboard__offensePeriod {
+  width: 150px;
+  height: 15vh;
+  border: 5px solid black;
+  font-size: large;
+}
+
+.scoreboard__offenseAway {
+  width: 150px;
+  height: 15vh;
+  border: 5px solid black;
+  border-right: transparent;
+  border-top: transparent;
+  font-size: large;
+}
+
+.remote {
+  display: flex;
+  margin-top: 50px;
+  width: 800px;
+  height: 20vh;
+  border: 5px solid black;
+  border-radius: 2px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.remote__btn {
+  background-color: #d15f07;
+  width: 100px;
+  height: 15vh;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: large;
+}
